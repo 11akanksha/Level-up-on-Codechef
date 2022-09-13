@@ -13,8 +13,8 @@ void solve(){
     }
     
     sort(arr.begin(),arr.end());
-    int maxi = max((ll)arr[0]*arr[0],(ll)arr[n-1]*arr[n-1]);
-    int mini = min({(ll)arr[0]*arr[0],(ll)arr[n-1]*arr[n-1],(ll)arr[0]*arr[n-1]});
+    ll maxi = max((ll)arr[0]*arr[0],(ll)arr[n-1]*arr[n-1]);
+    ll mini = min({(ll)arr[0]*arr[0],(ll)arr[n-1]*arr[n-1],(ll)arr[0]*arr[n-1]});
     cout<<mini<<" "<<maxi<<endl;
 }
 
