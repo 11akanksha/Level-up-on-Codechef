@@ -20,6 +20,7 @@ int main() {
         long long ans = 0;
         for(auto f:freq){
             long cf = f.second;
+	    // To find the number of pairs:
             ans += (cf * (cf-1))/2;
         }
         
